@@ -1,0 +1,86 @@
+:root {
+    --c00: #000000; /* 00 l:black   */
+    --c01: #AA0000; /* 01 l:red     */
+    --c02: #00AA00; /* 02 l:green   */
+    --c03: #AAAA00; /* 03 l:yellow  */
+    --c04: #0000AA; /* 04 l:blue    */
+    --c05: #AA00AA; /* 05 l:magenta */
+    --c06: #00AAAA; /* 06 l:cyan    */
+    --c07: #AAAAAA; /* 07 l:white   */
+    --c08: #555555; /* 08 b:black   */
+    --c09: #FF5555; /* 09 b:red     */
+    --c10: #55FF55; /* 10 b:green   */
+    --c11: #FFFF55; /* 11 b:yellow  */
+    --c12: #5555FF; /* 12 b:blue    */
+    --c13: #FF55FF; /* 13 b:magenta */
+    --c14: #55FFFF; /* 14 b:cyan    */
+    --c15: #FFFFFF; /* 15 b:white   */
+}
+
+body {
+	background: var(--c00);
+	color: var(--c07);
+	font-family: monospace;
+    word-break: break-all;
+	max-width: 40em;
+    padding: 1em;
+    border-spacing: 0;
+    border-width: 0px;
+}
+
+h2 {
+    color: var(--c07);
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    color: var(--c07);
+    margin: 0em;
+    padding: 0em;
+}
+
+ul {
+    list-style: none;
+    padding: 0em;
+    margin: 0em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: var(--c12);
+}
+
+a:visited {
+    color: var(--c12);
+}
+
+a:hover {
+    color: var(--c05);
+}
+
+.box {
+	margin-bottom: 1em;
+}
+
+.fancy1 {
+    text-decoration: underline dotted var(--c12);
+    text-align: left;
+    vertical-align: top;
+    word-break: break-all;
+}
+
+.fancy2 {
+    color: var(--c09);
+    text-align: left;
+    vertical-align: top;
+    word-break: normal;
+}
