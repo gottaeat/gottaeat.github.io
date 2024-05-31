@@ -21,22 +21,19 @@ body {
 	background: var(--c00);
 	color: var(--c07);
 	font-family: monospace;
+    display: flex;
+    justify-content: center;
     word-break: break-all;
-	max-width: 40em;
-    padding: 1em;
-    border-spacing: 0;
-    border-width: 0px;
+    margin: 0em;
+}
+
+h1 {
+    font-size: 1.5em;
 }
 
 h2 {
-    color: var(--c07);
-    margin-bottom: 0.5em;
-}
-
-h3 {
-    color: var(--c07);
-    margin: 0em;
-    padding: 0em;
+    font-size: 1.1em;
+    margin-bottom: 0em;
 }
 
 ul {
@@ -47,9 +44,16 @@ ul {
 
 img {
     max-width: 100%;
-    height: auto;
 }
 
+.center {
+    display: block;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
 
 a {
     text-decoration: none;
@@ -68,19 +72,15 @@ a:hover {
 }
 
 .box {
-	margin-bottom: 1em;
+    max-width: 35em;
 }
 
 .fancy1 {
     text-decoration: underline dotted var(--c12);
-    text-align: left;
-    vertical-align: top;
     word-break: break-all;
 }
 
 .fancy2 {
     color: var(--c09);
-    text-align: left;
-    vertical-align: top;
     word-break: normal;
 }
